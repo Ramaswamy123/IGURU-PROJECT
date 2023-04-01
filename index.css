@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px black;
+    
+}
+
+.school-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: solid 2px black;
+    /* height: 25vh; */
+    width: 100%;
+}
+
+.school-address {
+    font-size: 12px;
+    font-family: "Roboto";
+    font-weight: 600;
+    word-spacing: 1px;
+    margin-bottom: -7px;
+}
+
+.school-heading {
+    font-size: 26px;
+    font-family: "Roboto";
+    margin-bottom: -15px;
+}
+
+.school-email {
+    font-size: 12px;
+    font-family: "Roboto";
+    font-weight: 600;
+    word-spacing: 1px;
+}
+
+.title-report {
+    /* font-size: 12px; */
+    font-family: "Roboto";
+    font-weight: 600;
+    margin-bottom: -15px;
+}
+
+.title-acadamic {
+    /* font-size: 12px; */
+    font-family: "Roboto";
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.student-details-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.student-details-box {
+    width: 50%;
+    /* margin-left: 15px; */
+    padding-left:15px;
+}
+
+.student-details {
+    font-size: 12px;
+    font-family: "Roboto";
+    font-weight: 600;
+    margin-top: 6px;
+    margin-bottom: 1px;
+    margin-right:20px;
+    
+}
+
+.table-container {
+    width: 100%;
+}
+
+.result-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+   
+}
+
+.headings {
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size:13px;
+}
+
+.bottom-boxs {
+    height: 100px;
+}
+
+th ~ td{
+    font-family:"Roboto";
+}
+.bold ~ td{
+    font-weight:bold;
+}
